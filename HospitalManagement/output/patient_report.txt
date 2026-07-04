@@ -1,0 +1,30 @@
+=========================================================================
+                      MEDICORE PATIENT DISCHARGE & ADMISSION REPORT      
+                      Generated on: 2026-07-04 01:31:26
+=========================================================================
+
+ID         Name                 Age   Gender     Status          Room            Doctor ID 
+-------------------------------------------------------------------------
+P001       John Doe             34    Male       ADMITTED        Room-101        D001      
+P002       Jane Smith           28    Female     ADMITTED        Room-102        D002      
+P003       Robert Johnson       45    Male       DISCHARGED      Room-103        D003      
+P004       Emily Davis          12    Female     NOT_ADMITTED    N/A             N/A       
+P005       Michael Brown        60    Male       ADMITTED        Room-104        D001      
+P006       Sarah Miller         52    Female     NOT_ADMITTED    N/A             N/A       
+P007       David Wilson         22    Male       ADMITTED        Room-105        D003      
+P008       Jessica Taylor       31    Female     NOT_ADMITTED    N/A             N/A       
+P009       James Anderson       71    Male       ADMITTED        Room-106        D004      
+P010       Patricia Thomas      40    Female     NOT_ADMITTED    N/A             N/A       
+P011       John Jackson         19    Male       ADMITTED        Room-107        D005      
+P012       Linda White          65    Female     NOT_ADMITTED    N/A             N/A       
+P013       Richard Harris       48    Male       NOT_ADMITTED    N/A             N/A       
+P014       Elizabeth Martin     29    Female     DISCHARGED      Room-108        D004      
+P015       William Thompson     55    Male       ADMITTED        Room-109        D005      
+P016       Barbara Garcia       37    Female     NOT_ADMITTED    N/A             N/A       
+P017       Charles Martinez     42    Male       DISCHARGED      Room-110        D001      
+P018       Susan Robinson       50    Female     NOT_ADMITTED    N/A             N/A       
+P019       Joseph Clark         63    Male       ADMITTED        Room-111        D002      
+P020       Margaret Rodriguez   75    Female     NOT_ADMITTED    N/A             N/A       
+p1         abcd                 20    male       ADMITTED        1               d3        
+-------------------------------------------------------------------------
+Total Patient Records: 21

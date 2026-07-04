@@ -1,0 +1,21 @@
+DoctorID,Name,Age,Gender,Phone,Email,Department,Specialization,Qualification,Experience,Shift,Availability,Salary,CertificateStatus
+D001,Dr. Alan Grant,48,Male,+19876543201,alan.grant@medicore.com,Cardiology,Cardiologist,MD FACC,20,GENERAL,AVAILABLE,150000.00,GENUINE
+D002,Dr. Ellie Sattler,42,Female,+19876543202,ellie.sattler@medicore.com,Obstetrics,Gynecologist,MD OBGYN,15,MORNING,AVAILABLE,145000.00,GENUINE
+D003,Dr. Ian Malcolm,50,Male,+19876543203,ian.malcolm@medicore.com,Orthopedics,Orthopedic Surgeon,MD PhD,22,NIGHT,AVAILABLE,160000.00,UNVERIFIED
+D004,Dr. John Hammond,65,Male,+19876543204,john.hammond@medicore.com,Pediatrics,Pediatrician,MD FAAP,35,GENERAL,AVAILABLE,130000.00,GENUINE
+D005,Dr. Henry Wu,45,Male,+19876543205,henry.wu@medicore.com,General Medicine,General Practitioner,MD,14,AFTERNOON,AVAILABLE,110000.00,UNVERIFIED
+D006,Dr. Sarah Harding,38,Female,+19876543206,sarah.harding@medicore.com,Neurology,Neurologist,MD DM,10,EVENING,AVAILABLE,155000.00,GENUINE
+D007,Dr. Nick Van Owen,41,Male,+19876543207,nick.vanowen@medicore.com,Emergency,ER Specialist,MD,12,ON_CALL,AVAILABLE,135000.00,GENUINE
+D008,Dr. Kelly Curtis,36,Female,+19876543208,kelly.curtis@medicore.com,Dermatology,Dermatologist,MD DNB,8,MORNING,AVAILABLE,120000.00,GENUINE
+D009,Dr. Peter Ludlow,55,Male,+19876543209,peter.ludlow@medicore.com,Oncology,Oncologist,MD PhD,25,GENERAL,ON_LEAVE,175000.00,UNVERIFIED
+D010,Dr. Robert Muldoon,50,Male,+19876543210,robert.muldoon@medicore.com,Surgery,General Surgeon,MS FACS,21,ON_CALL,AVAILABLE,165000.00,GENUINE
+D011,Dr. Ray Arnold,44,Male,+19876543211,ray.arnold@medicore.com,Radiology,Radiologist,MD FRCR,16,NIGHT,BUSY,140000.00,GENUINE
+D012,Dr. Dennis Nedry,40,Male,+19876543212,dennis.nedry@medicore.com,Psychiatry,Psychiatrist,MD,12,AFTERNOON,AVAILABLE,125000.00,UNVERIFIED
+D013,Dr. Lex Murphy,30,Female,+19876543213,lex.murphy@medicore.com,Pediatrics,Pediatrician,MD,4,MORNING,AVAILABLE,105000.00,GENUINE
+D014,Dr. Tim Murphy,32,Male,+19876543214,tim.murphy@medicore.com,Opthalmology,Ophthalmologist,MS,5,EVENING,AVAILABLE,115000.00,GENUINE
+D015,Dr. Donald Gennaro,58,Male,+19876543215,donald.gennaro@medicore.com,Urology,Urologist,MS MCh,28,GENERAL,AVAILABLE,158000.00,UNVERIFIED
+D016,Dr. Lewis Dodgson,47,Male,+19876543216,lewis.dodgson@medicore.com,Neurology,Neurologist,MD,18,NIGHT,AVAILABLE,152000.00,GENUINE
+D017,Dr. Gerry Harding,61,Male,+19876543217,gerry.harding@medicore.com,Cardiology,Cardiologist,MD,30,GENERAL,ON_LEAVE,170000.00,GENUINE
+D018,Dr. Amanda Kirby,43,Female,+19876543218,amanda.kirby@medicore.com,Gynecology,Gynecologist,MD,15,MORNING,AVAILABLE,142000.00,GENUINE
+D019,Dr. Paul Kirby,46,Male,+19876543219,paul.kirby@medicore.com,Orthopedics,Orthopedic Surgeon,MS,17,AFTERNOON,AVAILABLE,149000.00,UNVERIFIED
+D020,Dr. Billy Brennan,35,Male,+19876543220,billy.brennan@medicore.com,Emergency,ER Specialist,MD,7,ON_CALL,AVAILABLE,132000.00,GENUINE

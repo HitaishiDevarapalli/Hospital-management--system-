@@ -1,0 +1,21 @@
+PatientID,Name,Age,Gender,PhoneNumber,Address,BloodGroup,Disease,AdmissionStatus,AssignedDoctorID,AdmissionDate,DischargeDate,RoomNumber,PatientType
+P001,John Doe,34,Male,+12345678901,123 Elm St,O+,Heart Attack,ADMITTED,D001,2026-07-01,N/A,Room-101,IP
+P002,Jane Smith,28,Female,+12345678902,456 Oak St,A-,Pregnancy,ADMITTED,D002,2026-07-02,N/A,Room-102,IP
+P003,Robert Johnson,45,Male,+12345678903,789 Pine St,B+,Fracture,DISCHARGED,D003,2026-06-25,2026-06-30,Room-103,IP
+P004,Emily Davis,12,Female,+12345678904,321 Maple Ave,AB+,High Fever,NOT_ADMITTED,D004,N/A,N/A,N/A (OP),OP
+P005,Michael Brown,60,Male,+12345678905,654 Spruce Rd,O-,Stroke,ADMITTED,D001,2026-07-03,N/A,Room-104,IP
+P006,Sarah Miller,52,Female,+12345678906,987 Cedar Dr,A+,Diabetes,NOT_ADMITTED,D005,N/A,N/A,N/A (OP),OP
+P007,David Wilson,22,Male,+12345678907,159 Birch Ln,B-,Accident,ADMITTED,D003,2026-07-03,N/A,Room-105,IP
+P008,Jessica Taylor,31,Female,+12345678908,753 Willow Ct,O+,Asthma,NOT_ADMITTED,D008,N/A,N/A,N/A (OP),OP
+P009,James Anderson,71,Male,+12345678909,852 Cherry Pl,AB-,Pneumonia,ADMITTED,D004,2026-07-01,N/A,Room-106,IP
+P010,Patricia Thomas,40,Female,+12345678910,963 Poplar Way,A-,Migraine,NOT_ADMITTED,D012,N/A,N/A,N/A (OP),OP
+P011,John Jackson,19,Male,+12345678911,147 Redwood Blvd,O+,Appendicitis,ADMITTED,D005,2026-07-02,N/A,Room-107,IP
+P012,Linda White,65,Female,+12345678912,258 Alder St,B+,Arthritis,NOT_ADMITTED,D012,N/A,N/A,N/A (OP),OP
+P013,Richard Harris,48,Male,+12345678913,369 Cypress St,A+,Hypertension,NOT_ADMITTED,D001,N/A,N/A,N/A (OP),OP
+P014,Elizabeth Martin,29,Female,+12345678914,951 Hickory Rd,O-,Flu,DISCHARGED,D004,2026-06-28,2026-06-29,Room-108,IP
+P015,William Thompson,55,Male,+12345678915,753 Chestnut Ave,B-,Kidney Stones,ADMITTED,D005,2026-07-02,N/A,Room-109,IP
+P016,Barbara Garcia,37,Female,+12345678916,846 Walnut Ln,AB+,Allergy,NOT_ADMITTED,D008,N/A,N/A,N/A (OP),OP
+P017,Charles Martinez,42,Male,+12345678917,159 Beech Dr,A-,Bronchitis,DISCHARGED,D001,2026-06-20,2026-06-24,Room-110,IP
+P018,Susan Robinson,50,Female,+12345678918,357 Hemlock Pl,O+,Thyroid,NOT_ADMITTED,D018,N/A,N/A,N/A (OP),OP
+P019,Joseph Clark,63,Male,+12345678919,246 Linden Ct,B+,COVID-19,ADMITTED,D002,2026-07-01,N/A,Room-111,IP
+P020,Margaret Rodriguez,75,Female,+12345678920,135 Sycamore Way,AB-,Anemia,NOT_ADMITTED,D004,N/A,N/A,N/A (OP),OP

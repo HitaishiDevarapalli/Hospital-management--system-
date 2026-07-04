@@ -1,0 +1,62 @@
+[2026-07-04 00:06:18] MediCore Hospital Management System started.
+[2026-07-04 00:07:30] Patient p025 added. Name: ABC
+[2026-07-04 00:09:58] Patient P025 admitted. Room: 12
+[2026-07-04 00:10:47] Patient P025 discharged.
+[2026-07-04 00:24:01] Patient p025 admitted. Room: 56
+[2026-07-04 00:28:11] Patient po1 added. Name: qws
+[2026-07-04 00:28:46] Patient po1 admitted. Room: 1
+[2026-07-04 00:31:39] MediCore Hospital Management System started.
+[2026-07-04 00:35:49] Doctor d3 added. Name: hitaishi
+[2026-07-04 00:38:02] Patient p1 added. Name: abcd
+[2026-07-04 00:38:11] Patient p1 admitted. Room: 1
+[2026-07-04 00:38:22] Doctor d3 assigned to Patient p1.
+[2026-07-04 00:40:08] Patient report generated successfully.
+[2026-07-04 00:40:40] Hospital data saved to CSV files.
+[2026-07-04 00:43:51] MediCore Hospital Management System started.
+[2026-07-04 00:46:54] MediCore Hospital Management System started.
+[2026-07-04 00:47:13] Emergency E001 raised for Patient UNKNOWN. Priority: CRITICAL
+[2026-07-04 00:47:13] Ambulance dispatched for Emergency E001.
+[2026-07-04 00:47:13] Emergency raised from contact number: 1234567890. Case ID: E001
+[2026-07-04 00:47:29] Hospital data saved to CSV files.
+[2026-07-04 00:47:45] MediCore Hospital Management System started.
+[2026-07-04 00:49:26] MediCore Hospital Management System started.
+[2026-07-04 00:49:48] MediCore Hospital Management System started.
+[2026-07-04 00:51:50] MediCore Hospital Management System started.
+[2026-07-04 00:53:29] MediCore Hospital Management System started.
+[2026-07-04 00:56:03] MediCore Hospital Management System started.
+[2026-07-04 00:56:46] MediCore Hospital Management System started.
+[2026-07-04 00:57:41] MediCore Hospital Management System started.
+[2026-07-04 01:12:03] MediCore Hospital Management System started.
+[2026-07-04 01:22:20] Doctor D1 added. Name: Ashish
+[2026-07-04 01:30:33] Staff member 123 added. Role: Nurse, Name: SAINA
+[2026-07-04 01:31:06] Emergency E001 raised for Patient UNKNOWN. Priority: CRITICAL
+[2026-07-04 01:31:06] Ambulance dispatched for Emergency E001.
+[2026-07-04 01:31:06] Emergency raised from contact number: 1234567. Case ID: E001
+[2026-07-04 01:31:26] Patient report generated successfully.
+[2026-07-04 01:32:30] Hospital data saved to CSV files.
+[2026-07-04 01:33:03] Hospital data saved to CSV files.
+[2026-07-04 01:34:45] MediCore Hospital Management System started.
+[2026-07-04 01:35:26] MediCore Hospital Management System started.
+[2026-07-04 01:35:38] Patient P1 discharged.
+[2026-07-04 01:35:59] Hospital data saved to CSV files.
+[2026-07-04 01:37:41] MediCore Hospital Management System started.
+[2026-07-04 01:39:39] Doctor 222 added. Name: LIKI
+[2026-07-04 01:42:26] MediCore Hospital Management System started.
+[2026-07-04 01:53:34] MediCore Hospital Management System started.
+[2026-07-04 01:54:45] Doctor D4 added. Name: YASH
+[2026-07-04 01:55:17] Admin verified Doctor D4's certificate as GENUINE.
+[2026-07-04 01:56:17] Patient P4 (IP) added. Name: hash
+[2026-07-04 01:57:51] Patient D4 (OP) added. Name: hash
+[2026-07-04 02:01:46] Staff member s1 added. Role: Nurse, Name: wers
+[2026-07-04 02:10:06] MediCore Hospital Management System started.
+[2026-07-04 02:10:41] Patient P4 (IP) added. Name: wer
+[2026-07-04 02:12:53] Staff member S1 added. Role: Nurse, Name: buyuy
+[2026-07-04 02:14:59] Patient P55 (OP) added. Name: wsxc
+[2026-07-04 02:15:45] Consultation fee ($50) collected for Outpatient: wsxc (P55)
+[2026-07-04 02:16:05] Consultation fee ($50) collected for Outpatient: wsxc (P55)
+[2026-07-04 02:21:49] MediCore Hospital Management System started.
+[2026-07-04 02:22:34] Patient p2222 (OP) added. Name: mama
+[2026-07-04 02:22:47] Auto Treatment Workflow Completed. Payment of $193.00 collected for Patient: mama (p2222)
+[2026-07-04 02:23:31] Patient p5 (IP) added. Name: wer
+[2026-07-04 02:24:05] Auto Treatment Workflow Completed. Payment of $643.00 collected for Patient: wer (p5)
+[2026-07-04 09:41:04] MediCore Hospital Management System started.
