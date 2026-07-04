@@ -2,7 +2,16 @@ package model;
 
 import model.enums.PatientStatus;
 
+/**
+ * CONCEPT: ENCAPSULATION & ACCESS SPECIFIERS
+ * 
+ * 1. Encapsulation: We bundle the data (private fields) and methods (public getters/setters) 
+ *    that operate on the data in a single class. This hides internal details from external classes.
+ * 2. Access Specifiers: We use the 'private' keyword to prevent direct mutation of sensitive patient fields, 
+ *    and 'public' on constructors and accessors to allow controlled external reading and updating.
+ */
 public class Patient {
+    // --- PRIVATE ACCESS SPECIFIERS (Fields are hidden) ---
     private String patientId;
     private String name;
     private int age;
@@ -18,13 +27,14 @@ public class Patient {
     private String roomNumber;
     private String patientType; // "IP" (Inpatient) or "OP" (Outpatient)
 
+    // --- PUBLIC ACCESS SPECIFIERS (Allowing instantiation) ---
     public Patient() {
         this.admissionStatus = PatientStatus.NOT_ADMITTED;
         this.assignedDoctorId = "N/A";
         this.admissionDate = "N/A";
         this.dischargeDate = "N/A";
         this.roomNumber = "N/A";
-        this.patientType = "OP"; // Default to Outpatient
+        this.patientType = "OP";
     }
 
     public Patient(String patientId, String name, int age, String gender, String phoneNumber, 
@@ -47,6 +57,7 @@ public class Patient {
         this.patientType = patientType;
     }
 
+    // --- ENCAPSULATION GETTERS & SETTERS (Controlled interface access) ---
     public String getPatientId() {
         return patientId;
     }

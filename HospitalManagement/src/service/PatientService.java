@@ -8,7 +8,17 @@ import model.Patient;
 import model.enums.PatientStatus;
 import util.Validator;
 
+/**
+ * CONCEPT: AGGREGATION & ACCESS SPECIFIERS
+ * 
+ * 1. Aggregation: The PatientService class has a 'HAS-A' relationship with the Patient class. 
+ *    It holds a collection of Patient objects (ArrayList<Patient>). The patients can exist 
+ *    independently of the service itself (weak association).
+ * 2. Access Specifiers: The field 'patients' is marked 'private' so it cannot be directly 
+ *    altered by other classes without calling our public business methods.
+ */
 public class PatientService {
+    // --- AGGREGATION (Service holds a reference to a collection of Patients) ---
     private ArrayList<Patient> patients;
 
     public PatientService(ArrayList<Patient> patients) {
@@ -20,7 +30,6 @@ public class PatientService {
     }
 
     public void addPatient(Patient p) throws InvalidPatientStateException {
-        // Unique Patient ID check (Required: "do not allow duplicate IDs for Patient, Doctor, Staff, or any other entity")
         for (Patient existing : patients) {
             if (existing.getPatientId().equalsIgnoreCase(p.getPatientId())) {
                 throw new InvalidPatientStateException("Duplicate ID Violation: Patient ID " + p.getPatientId() + " already exists!");
@@ -33,15 +42,12 @@ public class PatientService {
             throw new InvalidPatientStateException("Invalid phone number format! Must be 10-15 digits.");
         }
 
-        // Rule: If Outpatient (OP), do not assign a Room Number.
         if ("OP".equalsIgnoreCase(p.getPatientType())) {
             p.setRoomNumber("N/A (OP)");
-            // Ensure they have a doctor assigned; if not, throw exception to require one
             if (p.getAssignedDoctorId() == null || "N/A".equalsIgnoreCase(p.getAssignedDoctorId())) {
                 throw new InvalidPatientStateException("Outpatient (OP) must have an assigned doctor! Please select a doctor.");
             }
         } else {
-            // Inpatient (IP) starts with no room until admitted
             p.setRoomNumber("N/A");
         }
         
@@ -61,7 +67,6 @@ public class PatientService {
     public void admitPatient(String patientId, String roomNumber) throws PatientNotFoundException, InvalidPatientStateException {
         Patient p = findPatient(patientId);
         
-        // Rule: Admitting requires Inpatient (IP) type
         if ("OP".equalsIgnoreCase(p.getPatientType())) {
             throw new InvalidPatientStateException("Outpatient (OP) patients cannot be admitted. Only Inpatients (IP) can be admitted.");
         }
@@ -93,7 +98,6 @@ public class PatientService {
     public void assignDoctor(String patientId, String doctorId, boolean doctorExists) throws PatientNotFoundException, InvalidPatientStateException {
         Patient p = findPatient(patientId);
         
-        // Rule: Inpatient must be admitted first before assigning a doctor
         if ("IP".equalsIgnoreCase(p.getPatientType()) && p.getAdmissionStatus() != PatientStatus.ADMITTED) {
             throw new InvalidPatientStateException("Inpatient (IP) can only be assigned a doctor if they are admitted!");
         }
